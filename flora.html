@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>BioIFPAR-Flora</title> 
+    <link rel="stylesheet" href="style.css"> 
+  </head> 
+  <body class="papelparede"> 
+    <div class="pagInicial"> <!-- Adicionado para aplicar margens --> 
+      <header> 
+        <div class="topo"> 
+          <div class="logo"> 
+            <img src="imgs/logo.png" class="logoImg" alt=""> 
+            <p>BioIFPAR</p> 
+          </div> 
+          <div class="busca"> 
+            <input type="text" id="inputBusca" placeholder="Pesquisar Flora..."> 
+            <button id="btnBusca">🔍</button> 
+          </div>
+          <div class="menu">
+            <a href="BioMapa.html">BioMapa</a>
+            <a href="flora.html" class="active">Flora</a>
+            <a href="fauna.html">Fauna</a>
+            <a href="referencias.html">Referências</a>
+            <a href="time.html">Time</a>
+          </div>          
+        </div> 
+      </header> 
+      <p id="mensagemBusca" class="mensagem-busca" style="display:none;">
+  Nenhum resultado encontrado 🌿
+</p>
+      <hr> 
+
+      <div class="Imgs3"> 
+        <div class="molde3">          
+          <img src="imgs/flora/img1.jpg" alt="Espirradeira" class="zoom-img">
+          <p class="legenda">Espirradeira <i>(Nerium oleander)</i> - Mapa: 1</p>
+        </div>                
+        <div class="molde3">
+          <img src="imgs/flora/img2.jpg" alt="Araucária-de-norfolk" class="zoom-img">
+          <p class="legenda">Araucária-de-norfolk <i>(Araucaria heterophylla)</i> - Mapa: 2</p>
+        </div>
+        <div class="molde3">
+          <img src="imgs/flora/img3.jpg" alt="Pau-brasil" class="zoom-img">
+          <p class="legenda">Pau-brasil <i>(Paubrasilia echinata)</i> - Mapa: 3</p>
+        </div>
+      </div> 
+
+      <div class="Imgs3">         
+        <div class="molde3">
+          <img src="imgs/flora/img4.jpg" alt="Cássia-imperial" class="zoom-img">
+          <p class="legenda">Cássia-imperial <i>(Cassia fistula)</i> - Mapa: 4</p>
+        </div>
+        <div class="molde3">
+          <img src="imgs/flora/img5.jpg" alt="Acalifa-macarrão" class="zoom-img">
+          <p class="legenda">Acalifa-macarrão <i>(Acalypha hispida)</i> - Mapa: 5</p>
+        </div>
+        <div class="molde3">
+          <img src="imgs/flora/img6.jpg" alt="Mussaenda" class="zoom-img">
+          <p class="legenda">Mussaenda <i>(Mussaenda alicia)</i> - Mapa: 6</p>
+        </div>        
+      </div>
+
+      <div class="Imgs3">                   
+        <div class="molde3">
+          <img src="imgs/flora/img7.jpg" alt="Pinha" class="zoom-img">
+          <p class="legenda">Pinha <i>(Annona squamosa)</i> - Mapa: 7</p>
+        </div>
+        <div class="molde3">
+          <img src="imgs/flora/img8.jpg" alt="Algodoeiro" class="zoom-img">
+          <p class="legenda">Algodoeiro <i>(Gossypium hirsutum)</i> - Mapa: 8</p>
+        </div>
+        <div class="molde3">
+          <img src="imgs/flora/img9.jpg" alt="Ipê-amarelo" class="zoom-img">
+          <p class="legenda">Ipê-amarelo <i>(Handroanthus albus)</i> - Mapa: 9</p>
+        </div>
+      </div>
+
+    <div class="Imgs3"> 
+      <div class="molde3">
+        <img src="imgs/flora/img10.jpg" alt="Amendoeira-da-praia" class="zoom-img">
+        <p class="legenda">Amendoeira-da-praia <i>(Terminalia catappa)</i> - Mapa: 10</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img11.jpg" alt="Jacarandá" class="zoom-img">
+        <p class="legenda">Jacarandá <i>(Jacaranda)</i> - Mapa: 11</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img12.jpg" alt="Trapoeraba-roxa" class="zoom-img">
+        <p class="legenda">Trapoeraba-roxa <i>(Tradescantia pallida purpúrea)</i> - Mapa: 12</p>
+      </div>
+    </div>
+    
+    <div class="Imgs3">   
+      <div class="molde3">
+        <img src="imgs/flora/img13.jpg" alt="Cabaça" class="zoom-img">
+        <p class="legenda">Cabaça <i>(Crescentia cujete)</i> - Mapa: 13</p>
+      </div>              
+      <div class="molde3">
+        <img src="imgs/flora/img14.jpg" alt="Ixora Vermelha" class="zoom-img">
+        <p class="legenda">Ixora Vermelha <i>(Ixora coccinea)</i> - Mapa: 14</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img15.jpg" alt="Hibisco" class="zoom-img">
+        <p class="legenda">Hibisco <i>(Hibiscus rosa-sinensis)</i> - Mapa: 15</p>
+      </div>
+    </div>
+
+    <div class="Imgs3">                     
+      <div class="molde3">
+        <img src="imgs/flora/img16.jpg" alt="Palmeira-areca" class="zoom-img">
+        <p class="legenda">Palmeira-areca <i>(Areca catechu)</i> - Mapa: 16</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img17.jpg" alt="Jerivá" class="zoom-img">
+        <p class="legenda">Jerivá <i>(Syagrus romanzoffiana)</i> - Mapa: 17</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img18.jpg" alt="Dracena" class="zoom-img">
+        <p class="legenda">Dracena <i>(Dracaena marginata)</i> - Mapa: 18</p>
+      </div>
+    </div>
+
+    <div class="Imgs3">       
+      <div class="molde3">
+        <img src="imgs/flora/img19.jpg" alt="Poaia-branca" class="zoom-img">
+        <p class="legenda">Poaia-branca <i>(Richardia scabra)</i> - Mapa: 19</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img20.jpg" alt="Mangueira" class="zoom-img">
+        <p class="legenda">Mangueira <i>(Mangifera Indica)</i> - Mapa: 20</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img21.jpg" alt="Feijão-brav" class="zoom-img">
+        <p class="legenda">Feijão-bravo <i>(Centrosema brasilianum)</i> - Mapa: 21</p>
+      </div>
+    </div>
+
+    <div class="Imgs3">                     
+      <div class="molde3">
+        <img src="imgs/flora/img22.jpg" alt="Ipê-rosa" class="zoom-img">
+        <p class="legenda">Ipê-rosa <i>(Tabebuia rósea)</i> - Mapa: 22</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/flora/img23.jpg" alt="Cogumelo" class="zoom-img">
+        <p class="legenda">Cogumelo <i>(Volvopluteus gloiocephalus)</i> - Mapa: 23</p>
+      </div>
+    </div>                       
+                                                     
+      </div> <!-- Modal personalizado --> 
+      <div id="customModal" class="modal-overlay"> 
+        <div class="modal-box"> 
+          <span class="close-btn" id="closeModalBtn">&times;</span> 
+          <div class="modal-content"> <img id="modalImg" src="" alt="Imagem ampliada" /> 
+            <div class="modal-texto"> 
+              <br> 
+              <h2 id="modalTitle">Nome da Planta</h2> 
+              <h4 id="modalDesc">Descrição completa da planta aqui.</h4> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <script src="script.js"></script> 
+      <footer class="footer-nature"> 
+        <div class="footer-inner"> 
+          <div class="footer-left"> 
+            <h3>BioIFPAR</h3> 
+            <h4>Instituto Federal do Rio Grande do Norte — Campus Parnamirim</h4> 
+            <p>Projeto de mapeamento da biodiversidade, desenvolvido como parte do TCC para fins de divulgação científica e ambiental.</p> 
+          </div> 
+          <div class="footer-right"> 
+            <h4>Navegação</h4> 
+            <ul> 
+              <li><a href="BioMapa.html">BioMapa</a></li> 
+              <li><a href="flora.html">Flora</a></li> 
+              <li><a href="fauna.html">Fauna</a></li> 
+              <li><a href="time.html">Time</a></li> 
+            </ul> 
+          </div> 
+        </div> 
+        <div class="footer-bottom"> © 2025 — BioIFPAR | IFRN Campus Parnamirim — Trabalho de Conclusão de Curso </div> 
+      </footer> 
+    </body> 
+    </html>

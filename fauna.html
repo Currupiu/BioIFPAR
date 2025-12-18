@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioIFPAR-Fauna</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body class="papelparede">
+  <div class="pagInicial"> 
+    <header>
+      <div class="topo">
+        <div class="logo">
+          <img src="imgs/logo.png" class="logoImg" alt="">
+          <p>BioIFPAR</p>
+        </div> 
+        <div class="busca"> 
+          <input type="text" id="inputBusca" placeholder="Pesquisar fauna..."> 
+          <button id="btnBusca">🔍</button> 
+        </div> 
+        <div class="menu">
+          <a href="BioMapa.html">BioMapa</a>
+          <a href="flora.html">Flora</a>
+          <a href="fauna.html" class="active">Fauna</a>
+          <a href="referencias.html">Referências</a>
+          <a href="time.html">Time</a>
+        </div>        
+      </div> 
+    </header> 
+    <p id="mensagemBusca" class="mensagem-busca" style="display:none;">Nenhum resultado encontrado 🌿</p>
+    <hr> 
+
+    <div class="Imgs3"> 
+      <div class="molde3">
+        <img src="imgs/fauna/img24.jpg" alt="Corujas-buraqueiras" class="zoom-img">
+        <p class="legenda">Corujas-buraqueiras <i>(Athene cunicularia)</i> - Mapa: 24</p>
+      </div>    
+      <div class="molde3">
+        <img src="imgs/fauna/img25.jpg" alt="Canário-da-terra-verdadeiro" class="zoom-img">
+        <p class="legenda">Canário-da-terra-verdadeiro <i>(Sicalis flaveola)</i> - Mapa: 25</p>
+      </div>  
+      <div class="molde3">
+        <img src="imgs/fauna/img26.png" alt="Lagarto-de-parede" class="zoom-img">
+        <p class="legenda">Lagarto-de-parede <i>(Hemidactylus mabouia)</i> - Mapa: 26</p>
+      </div>
+    </div>
+
+    <div class="Imgs3"> 
+      <div class="molde3">
+        <img src="imgs/fauna/img27.jpg" alt="Borboleta-marrom" class="zoom-img">
+        <p class="legenda">Borboleta-marrom <i>(Borboleta Satyrinae)</i> - Mapa: 27</p>
+      </div>      
+      <div class="molde3">
+        <img src="imgs/fauna/img28.jpg" alt="Timbu" class="zoom-img">
+        <p class="legenda">Timbu <i>(Didelphis albiventris)</i> - Mapa: 28</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/fauna/img29.jpg" alt="Cobra-coral-verdadeira" class="zoom-img">
+        <p class="legenda">Cobra-coral-verdadeira <i>(Micrurus corallinus)</i> - Mapa: 29</p>
+      </div>
+    </div>
+
+    <div class="Imgs3"> 
+      <div class="molde3">
+        <img src="imgs/fauna/img30.png" alt="Gato" class="zoom-img">
+        <p class="legenda">Gato <i>Felis Catus</i> - Mapa: 30</p>
+      </div>
+      <div class="molde3">
+        <img src="imgs/fauna/img31.png" alt="Quero-quero" class="zoom-img">
+        <p class="legenda">Quero-quero <i>(Vanellus chilensis)</i> - Mapa: 31</p>
+      </div>
+    </div>   
+
+          </div> <!-- Modal personalizado --> 
+    <div id="customModal" class="modal-overlay"> 
+      <div class="modal-box"> 
+        <span class="close-btn" id="closeModalBtn">&times;</span> 
+        <div class="modal-content"> 
+          <img id="modalImg" src="" alt="Imagem ampliada" /> 
+          <div class="modal-texto"> 
+            <br> 
+            <h2 id="modalTitle">Nome da Planta</h2> 
+            <h4 id="modalDesc">Descrição completa da planta aqui.</h4> 
+          </div> 
+        </div> 
+      </div> 
+      <script src="script.js"></script> 
+    </div> 
+    
+    <footer class="footer-nature"> 
+      <div class="footer-inner"> 
+        <div class="footer-left"> 
+          <h3>BioIFPAR</h3> 
+          <h4>Instituto Federal do Rio Grande do Norte — Campus Parnamirim</h4> 
+          <p>Projeto de mapeamento da biodiversidade, desenvolvido como parte do TCC para fins de divulgação científica e ambiental.</p> </div> <div class="footer-right"> 
+            <h4>Navegação</h4> 
+            <ul> 
+              <li><a href="BioMapa.html">BioMapa</a></li> 
+              <li><a href="flora.html">Flora</a></li> 
+              <li><a href="fauna.html">Fauna</a></li> 
+              <li><a href="time.html">Time</a></li> 
+            </ul> 
+          </div> 
+        </div> 
+        <div class="footer-bottom"> © 2025 — BioIFPAR | IFRN Campus Parnamirim — Trabalho de Conclusão de Curso </div> 
+      </footer>  
+  </body> 
+  </html>
